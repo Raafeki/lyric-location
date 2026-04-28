@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Lyric Location",
+  "version": "1.0.0",
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://open.spotify.com/*"],
+      "js": ["assets/content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
