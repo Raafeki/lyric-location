@@ -24,7 +24,7 @@ export default function App({ trackInfo }) {
       </div>
 
       <SearchBar />
-      <Map />
+      <Map artistName={trackInfo?.artistName} />
       <ChatLyre />
     </div>
   )
