@@ -8,8 +8,5 @@
       "matches": ["https://open.spotify.com/*"],
       "js": ["assets/content.js"]
     }
-  ],
-  "action": {
-    "default_popup": "index.html"
-  }
+  ]
 }
