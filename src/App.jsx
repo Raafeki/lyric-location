@@ -2,6 +2,7 @@ import Map from './components/Map'
 import ChatLyre from './components/ChatLyre'
 import SearchBar from './components/SearchBar'
 import RegionSidebar from './components/RegionSidebar'
+import ListenReport from './components/ListenReport'
 
 export default function App({ trackInfo }) {
   return (
@@ -27,6 +28,7 @@ export default function App({ trackInfo }) {
       <SearchBar />
       <Map artistName={trackInfo?.artistName} />
       <RegionSidebar artistName={trackInfo?.artistName} />
+      <ListenReport />
       <ChatLyre />
     </div>
   )
